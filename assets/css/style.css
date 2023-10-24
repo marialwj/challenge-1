@@ -14,33 +14,33 @@ body {
 
 .main-header {
     padding: 20px;
-    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    font-size: 40px;
+    width: 100%;
 }
 
-.main-header {
+.main-header h1{
     display: inline-block;
-    font-size: 48px;
 }
 
 .main-header .seo {
     color: #d9dcd6;
 }
 
-.main-header section ul {
+.main-header ul {
+    padding-top: 20px;
     list-style-type: none;
     float: right;
-
 }
 
-.main-header section ul li {
-    display: inline-block;
+.main-header ul li {
     margin-left: 25px;
+    display: inline-block;
 }
 
-.main-header section {
+.main-header {
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
